@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+.navbar{
+    padding: 20px;
+    display:flex;
+    justify-content: left;
+    position: relative;
+}
+.left img{
+    width: 50px;
+
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.center{
+padding: 20px;
+display: flex;
+gap: 70px;
+justify-content: center;
+position:absolute ;
+top: 20px;
+left:400px;
+}
+
+
+.right{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 40px;
+}
+.search{
+    padding: 10px;
+    border:solid black 1px;
+    border-radius: 30px;
+    width:70%;
+    display: flex;
+    gap:10px;
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+}
+.search input{
+    border:none;
+    width:100%;
+    font-size: 16px;
+
+}
+.title{
+    position:absolute;
+    left: 500px;
+    width: 200px;
+    font-size:20px;
+
+}
+.search  input a{
+    padding: 10px;
+    background-color:skyblue;
+    color: black;
+    width: 40px;
+    border-radius: 10px;
+
+}
+
+.categories{
+    display: flex;
+    position: absolute;
+    left:100px;
+    top: 180px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.search button{
+    padding: 10px;
+    background: lawngreen;
+    color:white;
+    border: none;
+    border-radius: 20px;
+}
+
+.trip{
+    position: absolute;
+    right: 630px;
+    top: 300px;
+    width: 600px;
+
+}
+.recommended{
+    position:relative;
+    left:10px;
+    top:650px;
+    padding:30px;
+}
+.recommended__container{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    justify-content:space-between;
+}
+.trip-image{
+    width:20;
+}
+.trip-image img{
+    width: 280px;
+}
+.experience{
+    position:relative;
+    padding:40px;
+    gap:20px;
+    top:200px;
+    left:0px;
+}
+.experience-image img{
+    width:220px;
+}
+.experience-image{
+    width:50;
+}
+.experience__container{
+    display: flex;
+    gap:200;
+    position: absolute;
+    justify-content: space-between;
+
+}
+.footer{
+    background-color: black;
+    color:white;
+    position: relative;
+    top:480px;
+    width:1200px;
+    height:260px;
+}
+.footer__one p{
+    margin:20px;
+}
+.footer__one{
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+
+
+
